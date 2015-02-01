@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0CD02D1A7A7AEA003DB1EC /* socket.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B0CD02B1A7A7AEA003DB1EC /* socket.lua */; };
+		8B0CD02E1A7A7AEA003DB1EC /* mobdebug.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B0CD02C1A7A7AEA003DB1EC /* mobdebug.lua */; };
+		8B8DC8521A762F28007F8B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DC8511A762F28007F8B4C /* main.m */; };
+		8B8DC8551A762F28007F8B4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DC8541A762F28007F8B4C /* AppDelegate.m */; };
+		8B8DC8581A762F28007F8B4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DC8571A762F28007F8B4C /* ViewController.m */; };
+		8B8DC85B1A762F28007F8B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DC8591A762F28007F8B4C /* Main.storyboard */; };
+		8B8DC85D1A762F28007F8B4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DC85C1A762F28007F8B4C /* Images.xcassets */; };
+		8B8DC8601A762F28007F8B4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DC85E1A762F28007F8B4C /* LaunchScreen.xib */; };
+		8B8DC86C1A762F28007F8B4C /* EssentialWaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DC86B1A762F28007F8B4C /* EssentialWaxTests.m */; };
+		8B8DC8CA1A764A67007F8B4C /* libWax.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DC8C91A764A67007F8B4C /* libWax.a */; };
+		8BEBBD291A7A37BF006D0CC2 /* EssentialWax.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBBD281A7A37BF006D0CC2 /* EssentialWax.lua */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B39A4A61A764C2F0036DAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B39A4A11A764C2F0036DAE2 /* Wax.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B8DC8B21A76480E007F8B4C;
+			remoteInfo = Wax;
+		};
+		8B39A4A81A764C2F0036DAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B39A4A11A764C2F0036DAE2 /* Wax.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B8DC8BD1A76480E007F8B4C;
+			remoteInfo = WaxTests;
+		};
+		8B39A4AA1A764C3A0036DAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B39A4A11A764C2F0036DAE2 /* Wax.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8DC8B11A76480E007F8B4C;
+			remoteInfo = Wax;
+		};
+		8B8DC8661A762F28007F8B4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B8DC8441A762F28007F8B4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8DC84B1A762F28007F8B4C;
+			remoteInfo = EssentialWax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B0CD02B1A7A7AEA003DB1EC /* socket.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = socket.lua; sourceTree = "<group>"; };
+		8B0CD02C1A7A7AEA003DB1EC /* mobdebug.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mobdebug.lua; sourceTree = "<group>"; };
+		8B39A4A11A764C2F0036DAE2 /* Wax.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Wax.xcodeproj; path = ../Wax/Wax.xcodeproj; sourceTree = "<group>"; };
+		8B8DC84C1A762F28007F8B4C /* EssentialWax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialWax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8DC8501A762F28007F8B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8DC8511A762F28007F8B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B8DC8531A762F28007F8B4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B8DC8541A762F28007F8B4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B8DC8561A762F28007F8B4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B8DC8571A762F28007F8B4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B8DC85A1A762F28007F8B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B8DC85C1A762F28007F8B4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B8DC85F1A762F28007F8B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B8DC8651A762F28007F8B4C /* EssentialWaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialWaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8DC86A1A762F28007F8B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8DC86B1A762F28007F8B4C /* EssentialWaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EssentialWaxTests.m; sourceTree = "<group>"; };
+		8B8DC8C91A764A67007F8B4C /* libWax.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWax.a; path = "../Wax/build/Debug-iphoneos/libWax.a"; sourceTree = "<group>"; };
+		8BEBBD281A7A37BF006D0CC2 /* EssentialWax.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EssentialWax.lua; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B8DC8491A762F28007F8B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8DC8CA1A764A67007F8B4C /* libWax.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8DC8621A762F28007F8B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B39A4A21A764C2F0036DAE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B39A4A71A764C2F0036DAE2 /* libWax.a */,
+				8B39A4A91A764C2F0036DAE2 /* WaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B8DC8431A762F28007F8B4C = {
+			isa = PBXGroup;
+			children = (
+				8B39A4A11A764C2F0036DAE2 /* Wax.xcodeproj */,
+				8B8DC8C91A764A67007F8B4C /* libWax.a */,
+				8B8DC84E1A762F28007F8B4C /* EssentialWax */,
+				8B8DC8681A762F28007F8B4C /* EssentialWaxTests */,
+				8B8DC84D1A762F28007F8B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8DC84D1A762F28007F8B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8DC84C1A762F28007F8B4C /* EssentialWax.app */,
+				8B8DC8651A762F28007F8B4C /* EssentialWaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B8DC84E1A762F28007F8B4C /* EssentialWax */ = {
+			isa = PBXGroup;
+			children = (
+				8BEBBD271A7A3792006D0CC2 /* script */,
+				8B8DC8531A762F28007F8B4C /* AppDelegate.h */,
+				8B8DC8541A762F28007F8B4C /* AppDelegate.m */,
+				8B8DC8561A762F28007F8B4C /* ViewController.h */,
+				8B8DC8571A762F28007F8B4C /* ViewController.m */,
+				8B8DC8591A762F28007F8B4C /* Main.storyboard */,
+				8B8DC85C1A762F28007F8B4C /* Images.xcassets */,
+				8B8DC85E1A762F28007F8B4C /* LaunchScreen.xib */,
+				8B8DC84F1A762F28007F8B4C /* Supporting Files */,
+			);
+			path = EssentialWax;
+			sourceTree = "<group>";
+		};
+		8B8DC84F1A762F28007F8B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8DC8501A762F28007F8B4C /* Info.plist */,
+				8B8DC8511A762F28007F8B4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B8DC8681A762F28007F8B4C /* EssentialWaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B8DC86B1A762F28007F8B4C /* EssentialWaxTests.m */,
+				8B8DC8691A762F28007F8B4C /* Supporting Files */,
+			);
+			path = EssentialWaxTests;
+			sourceTree = "<group>";
+		};
+		8B8DC8691A762F28007F8B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8DC86A1A762F28007F8B4C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BEBBD271A7A3792006D0CC2 /* script */ = {
+			isa = PBXGroup;
+			children = (
+				8B0CD02B1A7A7AEA003DB1EC /* socket.lua */,
+				8B0CD02C1A7A7AEA003DB1EC /* mobdebug.lua */,
+				8BEBBD281A7A37BF006D0CC2 /* EssentialWax.lua */,
+			);
+			path = script;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B8DC84B1A762F28007F8B4C /* EssentialWax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8DC86F1A762F28007F8B4C /* Build configuration list for PBXNativeTarget "EssentialWax" */;
+			buildPhases = (
+				8B8DC8481A762F28007F8B4C /* Sources */,
+				8B8DC8491A762F28007F8B4C /* Frameworks */,
+				8B8DC84A1A762F28007F8B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B39A4AB1A764C3A0036DAE2 /* PBXTargetDependency */,
+			);
+			name = EssentialWax;
+			productName = EssentialWax;
+			productReference = 8B8DC84C1A762F28007F8B4C /* EssentialWax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B8DC8641A762F28007F8B4C /* EssentialWaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8DC8721A762F28007F8B4C /* Build configuration list for PBXNativeTarget "EssentialWaxTests" */;
+			buildPhases = (
+				8B8DC8611A762F28007F8B4C /* Sources */,
+				8B8DC8621A762F28007F8B4C /* Frameworks */,
+				8B8DC8631A762F28007F8B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B8DC8671A762F28007F8B4C /* PBXTargetDependency */,
+			);
+			name = EssentialWaxTests;
+			productName = EssentialWaxTests;
+			productReference = 8B8DC8651A762F28007F8B4C /* EssentialWaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B8DC8441A762F28007F8B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = strongtu;
+				TargetAttributes = {
+					8B8DC84B1A762F28007F8B4C = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8B8DC8641A762F28007F8B4C = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8B8DC84B1A762F28007F8B4C;
+					};
+				};
+			};
+			buildConfigurationList = 8B8DC8471A762F28007F8B4C /* Build configuration list for PBXProject "EssentialWax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B8DC8431A762F28007F8B4C;
+			productRefGroup = 8B8DC84D1A762F28007F8B4C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8B39A4A21A764C2F0036DAE2 /* Products */;
+					ProjectRef = 8B39A4A11A764C2F0036DAE2 /* Wax.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8B8DC84B1A762F28007F8B4C /* EssentialWax */,
+				8B8DC8641A762F28007F8B4C /* EssentialWaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8B39A4A71A764C2F0036DAE2 /* libWax.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libWax.a;
+			remoteRef = 8B39A4A61A764C2F0036DAE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B39A4A91A764C2F0036DAE2 /* WaxTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = WaxTests.xctest;
+			remoteRef = 8B39A4A81A764C2F0036DAE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B8DC84A1A762F28007F8B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEBBD291A7A37BF006D0CC2 /* EssentialWax.lua in Resources */,
+				8B0CD02D1A7A7AEA003DB1EC /* socket.lua in Resources */,
+				8B8DC85B1A762F28007F8B4C /* Main.storyboard in Resources */,
+				8B8DC8601A762F28007F8B4C /* LaunchScreen.xib in Resources */,
+				8B8DC85D1A762F28007F8B4C /* Images.xcassets in Resources */,
+				8B0CD02E1A7A7AEA003DB1EC /* mobdebug.lua in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8DC8631A762F28007F8B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B8DC8481A762F28007F8B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8DC8581A762F28007F8B4C /* ViewController.m in Sources */,
+				8B8DC8551A762F28007F8B4C /* AppDelegate.m in Sources */,
+				8B8DC8521A762F28007F8B4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8DC8611A762F28007F8B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8DC86C1A762F28007F8B4C /* EssentialWaxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B39A4AB1A764C3A0036DAE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Wax;
+			targetProxy = 8B39A4AA1A764C3A0036DAE2 /* PBXContainerItemProxy */;
+		};
+		8B8DC8671A762F28007F8B4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B8DC84B1A762F28007F8B4C /* EssentialWax */;
+			targetProxy = 8B8DC8661A762F28007F8B4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B8DC8591A762F28007F8B4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B8DC85A1A762F28007F8B4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B8DC85E1A762F28007F8B4C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B8DC85F1A762F28007F8B4C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B8DC86D1A762F28007F8B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax,
+					/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax/Wax/Lua,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B8DC86E1A762F28007F8B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: tu qiang (TV729Y3YYZ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: tu qiang (TV729Y3YYZ)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B8DC8701A762F28007F8B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EssentialWax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B8DC8711A762F28007F8B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EssentialWax/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B8DC8731A762F28007F8B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EssentialWaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssentialWax.app/EssentialWax";
+			};
+			name = Debug;
+		};
+		8B8DC8741A762F28007F8B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EssentialWaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EssentialWax.app/EssentialWax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B8DC8471A762F28007F8B4C /* Build configuration list for PBXProject "EssentialWax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8DC86D1A762F28007F8B4C /* Debug */,
+				8B8DC86E1A762F28007F8B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B8DC86F1A762F28007F8B4C /* Build configuration list for PBXNativeTarget "EssentialWax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8DC8701A762F28007F8B4C /* Debug */,
+				8B8DC8711A762F28007F8B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B8DC8721A762F28007F8B4C /* Build configuration list for PBXNativeTarget "EssentialWaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8DC8731A762F28007F8B4C /* Debug */,
+				8B8DC8741A762F28007F8B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B8DC8441A762F28007F8B4C /* Project object */;
+}
