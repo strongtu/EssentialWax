@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B0CD02D1A7A7AEA003DB1EC /* socket.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B0CD02B1A7A7AEA003DB1EC /* socket.lua */; };
-		8B0CD02E1A7A7AEA003DB1EC /* mobdebug.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B0CD02C1A7A7AEA003DB1EC /* mobdebug.lua */; };
+		8B2504EA1A80D53600E7178C /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 8B2504E91A80D53600E7178C /* scripts */; };
 		8B8DC8521A762F28007F8B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DC8511A762F28007F8B4C /* main.m */; };
 		8B8DC8551A762F28007F8B4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DC8541A762F28007F8B4C /* AppDelegate.m */; };
 		8B8DC8581A762F28007F8B4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DC8571A762F28007F8B4C /* ViewController.m */; };
@@ -17,7 +16,6 @@
 		8B8DC8601A762F28007F8B4C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DC85E1A762F28007F8B4C /* LaunchScreen.xib */; };
 		8B8DC86C1A762F28007F8B4C /* EssentialWaxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DC86B1A762F28007F8B4C /* EssentialWaxTests.m */; };
 		8B8DC8CA1A764A67007F8B4C /* libWax.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DC8C91A764A67007F8B4C /* libWax.a */; };
-		8BEBBD291A7A37BF006D0CC2 /* EssentialWax.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBBD281A7A37BF006D0CC2 /* EssentialWax.lua */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8B0CD02B1A7A7AEA003DB1EC /* socket.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = socket.lua; sourceTree = "<group>"; };
-		8B0CD02C1A7A7AEA003DB1EC /* mobdebug.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mobdebug.lua; sourceTree = "<group>"; };
+		8B2504E91A80D53600E7178C /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = scripts; path = EssentialWax/scripts; sourceTree = "<group>"; };
 		8B39A4A11A764C2F0036DAE2 /* Wax.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Wax.xcodeproj; path = ../Wax/Wax.xcodeproj; sourceTree = "<group>"; };
 		8B8DC84C1A762F28007F8B4C /* EssentialWax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialWax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8DC8501A762F28007F8B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,7 +66,6 @@
 		8B8DC86A1A762F28007F8B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B8DC86B1A762F28007F8B4C /* EssentialWaxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EssentialWaxTests.m; sourceTree = "<group>"; };
 		8B8DC8C91A764A67007F8B4C /* libWax.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libWax.a; path = "../Wax/build/Debug-iphoneos/libWax.a"; sourceTree = "<group>"; };
-		8BEBBD281A7A37BF006D0CC2 /* EssentialWax.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EssentialWax.lua; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +99,12 @@
 		8B8DC8431A762F28007F8B4C = {
 			isa = PBXGroup;
 			children = (
-				8B39A4A11A764C2F0036DAE2 /* Wax.xcodeproj */,
 				8B8DC8C91A764A67007F8B4C /* libWax.a */,
 				8B8DC84E1A762F28007F8B4C /* EssentialWax */,
 				8B8DC8681A762F28007F8B4C /* EssentialWaxTests */,
 				8B8DC84D1A762F28007F8B4C /* Products */,
+				8B2504E91A80D53600E7178C /* scripts */,
+				8B39A4A11A764C2F0036DAE2 /* Wax.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,7 +120,6 @@
 		8B8DC84E1A762F28007F8B4C /* EssentialWax */ = {
 			isa = PBXGroup;
 			children = (
-				8BEBBD271A7A3792006D0CC2 /* script */,
 				8B8DC8531A762F28007F8B4C /* AppDelegate.h */,
 				8B8DC8541A762F28007F8B4C /* AppDelegate.m */,
 				8B8DC8561A762F28007F8B4C /* ViewController.h */,
@@ -160,16 +156,6 @@
 				8B8DC86A1A762F28007F8B4C /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8BEBBD271A7A3792006D0CC2 /* script */ = {
-			isa = PBXGroup;
-			children = (
-				8B0CD02B1A7A7AEA003DB1EC /* socket.lua */,
-				8B0CD02C1A7A7AEA003DB1EC /* mobdebug.lua */,
-				8BEBBD281A7A37BF006D0CC2 /* EssentialWax.lua */,
-			);
-			path = script;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,12 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEBBD291A7A37BF006D0CC2 /* EssentialWax.lua in Resources */,
-				8B0CD02D1A7A7AEA003DB1EC /* socket.lua in Resources */,
+				8B2504EA1A80D53600E7178C /* scripts in Resources */,
 				8B8DC85B1A762F28007F8B4C /* Main.storyboard in Resources */,
 				8B8DC8601A762F28007F8B4C /* LaunchScreen.xib in Resources */,
 				8B8DC85D1A762F28007F8B4C /* Images.xcassets in Resources */,
-				8B0CD02E1A7A7AEA003DB1EC /* mobdebug.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +335,7 @@
 		8B8DC86D1A762F28007F8B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -382,10 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = (
-					/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax,
-					/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax/Wax/Lua,
-				);
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -396,7 +377,7 @@
 		8B8DC86E1A762F28007F8B4C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -422,6 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -433,13 +415,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: tu qiang (TV729Y3YYZ)";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = EssentialWax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax/build/Debug-iphoneos",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax /Users/strongtu/Documents/Project/GIT/EssentialWax/Wax/Wax/Lua";
+				VALID_ARCHS = "armv7 i386";
 			};
 			name = Debug;
 		};
@@ -447,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = EssentialWax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -454,6 +443,9 @@
 					"/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/strongtu/Documents/Project/GIT/EssentialWax/Wax /Users/strongtu/Documents/Project/GIT/EssentialWax/Wax/Wax/Lua";
+				VALID_ARCHS = "armv7 i386";
 			};
 			name = Release;
 		};

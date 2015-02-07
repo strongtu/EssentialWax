@@ -593,11 +593,16 @@ static int pcallUserdata(lua_State *L, id self, SEL selector, va_list args) {
     NSMethodSignature *signature = [self methodSignatureForSelector:selector];
     int nargs = [signature numberOfArguments] - 1; // Don't send in the _cmd argument, only self
     int nresults = [signature methodReturnLength] ? 1 : 0;
-        
+#if OS_VERSION >= 8
+    void* args_buffer = args->reg_save_area + args->gp_offset;
+#else
+    void* args_buffer = args;
+#endif
+    
     for (int i = 2; i < [signature numberOfArguments]; i++) { // start at 2 because to skip the automatic self and _cmd arugments
         const char *type = [signature getArgumentTypeAtIndex:i];
-        int size = wax_fromObjc(L, type, args);
-        args += size; // HACK! Since va_arg requires static type, I manually increment the args
+        int size = wax_fromObjc(L, type, args_buffer);
+        args_buffer += size; // HACK! Since va_arg requires static type, I manually increment the args
     }
 
     if (wax_pcall(L, nargs, nresults)) { // Userdata will allways be the first object sent to the function  

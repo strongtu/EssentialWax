@@ -25,6 +25,6 @@
 ((struct name *)((char *)(addr) - fldoff(name, field)))
  
  
-void luax_loadexts(lua_State *L);
+int luax_loadexts(lua_State *L);
  
 #endif

@@ -18,7 +18,7 @@ static luaL_Reg luax_preload_list[] = {
     {NULL, NULL}
 };
  
-void luax_loadexts(lua_State *L)
+int luax_loadexts(lua_State *L)
 {
     luaL_Reg* lib = luax_preload_list;
     luaL_findtable(L, LUA_GLOBALSINDEX, "package.preload", sizeof(luax_preload_list)/sizeof(luax_preload_list[0])-1);
@@ -28,4 +28,5 @@ void luax_loadexts(lua_State *L)
         lua_rawset(L, -3);
     }
     lua_pop(L, 1);
+    return 0;
 }
